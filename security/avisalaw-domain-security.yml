@@ -1,0 +1,15 @@
+generated: '2026-09-27'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: avisalaw.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Dec 12 09:32:14 2026 GMT
+  hsts: false
+domains:
+- domain: avisalaw.com
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
